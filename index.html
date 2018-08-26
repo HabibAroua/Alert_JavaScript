@@ -6,6 +6,22 @@
         <link rel="stylesheet" type="text/css" href="css/sweetalert2.css">
     </head>
     <body>
-        
+        <script>
+            function validation()
+            {
+                swal(
+                    'The Internet?',
+                    'That thing is still around?',
+                    'question'
+                    );
+            }
+        </script>
+        <form>
+            <input type="text" name="user" required />
+            <br>
+            <input type="password" name="password" required />
+            <br>
+            <button onclick="validation();">Login</button>
+        </form>
     </body>
 </html>
