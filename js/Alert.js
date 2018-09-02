@@ -26,4 +26,16 @@ function errorMessage(title,text,footer)
     );
 }
 
+function ImageMessage(imageUrl,imageHeight,imageAlt)
+{
+    swal
+    (
+        {
+            imageUrl: imageUrl,
+            imageHeight: imageHeight,
+            imageAlt: imageAlt
+        }
+    );
+}
+
 //https://sweetalert2.github.io/
