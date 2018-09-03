@@ -38,4 +38,17 @@ function ImageMessage(imageUrl,imageHeight,imageAlt)
     );
 }
 
+function positionedDialog(position,type,title,showConfirmButton,timer)
+{
+    swal
+    (
+        {
+            position: position,
+            type: type,
+            title: title,
+            showConfirmButton: showConfirmButton, //booleen
+            timer: timer
+        }
+    );
+}
 //https://sweetalert2.github.io/
