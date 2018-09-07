@@ -51,4 +51,17 @@ function positionedDialog(position,type,title,showConfirmButton,timer)
         }
     );
 }
+
+function CustomAnimation(title,animation,c)
+{
+    
+    swal
+    (
+        {
+            title: 'Custom animation with Animate.css',
+            animation: false,
+            customClass: 'animated tada'
+        }
+    );
+}
 //https://sweetalert2.github.io/
