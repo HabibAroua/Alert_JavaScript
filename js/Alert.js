@@ -58,9 +58,9 @@ function CustomAnimation(title,animation,c)
     swal
     (
         {
-            title: 'Custom animation with Animate.css',
-            animation: false,
-            customClass: 'animated tada'
+            title: title,
+            animation: animation, //booleen
+            customClass: c //animated tada
         }
     );
 }
